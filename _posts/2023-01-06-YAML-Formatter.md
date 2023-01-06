@@ -1,3 +1,4 @@
---- # Links
-  YAML-Playground: John Smith
-  wiki: https://en.wikipedia.org/wiki/YAML
+## Links
+
+1. YAML-Playground: John Smith
+2. wiki: https://en.wikipedia.org/wiki/YAML
