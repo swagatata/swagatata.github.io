@@ -11,13 +11,24 @@ Orchestration allows us to have applications which have
 * fault tolerance : recovers automatically from a faulty state
 
 # Kubernetes Concepts
-1. Control Pane
-2. Nodes
-3. Kubectl
-4. 
+1. Cluster
+2. Control Pane (Master)
+4. Nodes (Worker)
+5. Kubectl
+6. API Server
+7. Controller Manager
+8. Scheduler
+9. etcd(KeyValue store)
+10. Virtual Network
+11. Pods
+12. Pod-Service
+13. Ingress
 
 # Kubernetes Architecture
 ![Kubernetes Architecture](https://user-images.githubusercontent.com/235574/229316306-c4316319-d319-49a7-89c7-5b1bc1e6fbc9.png)
 
 
+# Pods
+
+Pods are the unit entities in kubernetes. They are usually an abstraction over containers. Each pod has its own virtual address(an IP address).
 
